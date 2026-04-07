@@ -27,8 +27,8 @@ export const config: Config = {
       originBlacklist: null,
     },
     server: {
-      host: "no",
-      port: 46625,
+      host: "192.168.1.137",
+      port: 25565,
     },
     tls: undefined,
   },
