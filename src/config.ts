@@ -23,7 +23,7 @@ export const config: Config = {
         },
     origins: {
       allowOfflineDownloads: true,
-      originWhitelist: null,
+      originWhitelist: [],
       originBlacklist: null,
     },
     server: {
