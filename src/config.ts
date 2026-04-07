@@ -5,7 +5,7 @@ import { Config } from "./launcher_types.js";
 
 export const config: Config = {
   bridge: {
-    enabled: false,
+    enabled: true,
     motd: null,
   },
   adapter: {
