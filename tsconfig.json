@@ -7,7 +7,9 @@
     "sourceMap": false,
     "outDir": "build",
     "resolveJsonModule": true,
-    "rootDir": "src"
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "strict": false
   },
   "include": ["src/**/*.json", "src/**/*"],
   "hooks": ["copy-files"]
