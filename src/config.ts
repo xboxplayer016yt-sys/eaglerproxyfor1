@@ -11,7 +11,7 @@ export const config: Config = {
   adapter: {
     name: "EaglerProxy",
     bindHost: "0.0.0.0",
-    bindPort: 8080,
+    bindPort: 10000,
     maxConcurrentClients: 20,
     skinUrlWhitelist: undefined,
     motd: true
